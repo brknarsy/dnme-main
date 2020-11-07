@@ -161,7 +161,11 @@ table {
         border: 5px solid #095484;
       }
       td {
-        border: 5px groove #1c87c9;
+        padding: 10px;
+        border: 2px solid #1c87c9;
+        border-radius: 5px;
+        background-color: #e5e5e5;
+        text-align: center;
       }
 body { 
   margin: 0 auto;
