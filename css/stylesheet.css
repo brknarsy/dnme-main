@@ -158,13 +158,13 @@ table {
         background-color: #d9d9d9;
       }
       th {
-        border: 5px solid #095484;
+        padding: 10px;
+        border-bottom: 2px solid #ababab;
+        text-align: center;
       }
       td {
         padding: 10px;
-        border: 2px solid #1c87c9;
-        border-radius: 5px;
-        background-color: #e5e5e5;
+        border-bottom: 2px solid #8ebf42;
         text-align: center;
       }
 body { 
