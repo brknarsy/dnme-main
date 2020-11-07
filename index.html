@@ -1,53 +1,95 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ali Berkin Arısoy</title>
-	
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
 <body>
 <header>
-    <h1>Ali Berkin Arısoy</h1>
-    <img src="img/image.jpg" width="300" height="200" alt="Ali Berkin Arısoy"/>
-	<div class="table-wrapper-scroll-y my-custom-scrollbar">
-		
+</header>
+<main>
+    <article>
+	<div class="parent">
+	<h1 style="text-align:center;">Ali Berkin Arısoy</h1>
+	</div>
+	<div class="child">
 		<table class="table table-bordered table-striped mb-0">
 			<style>
-			      h2,
-			      div,
-			      h2 {
+			    h2
+				{
 				border: 3px double #1c87c9;
 				background-color: #d9d9d9;
-			      }
-			      h1 {
+			    }
+			    h1
+				{
 				border: 3px double #1c87c9;
 				background-color: #d9d9d9;
-			      }
-			      li {
-				border: 3px double #1c87c9;
-				background-color: #d9d9d9;
-			      }
-			      div {
-				border-left: 5px solid #1c87c9;
-				background-color: #cccccc
-			      }
-			      p {
+			    }
+			    li
+				{
 				border: 10px groove #8ebf42;
-			      }
+				background-color: #d9d9d9;
+			    }
+			    div
+				{
+				background-color: #cccccc
+			    }
+			    p
+				{
+				border: 10px groove #8ebf42;
+				background-color: #d9d9d9;
+			    }
+				table {
+					border-style: ridge;
+					border-width: 20px;
+					border-color: #8ebf42;
+					background-color: #d9d9d9;
+					padding: 60px;
+				}
+				th {
+					padding: 15px;
+					border-bottom: 3px solid #ababab;
+					text-align: center;
+				}
+				td {
+					padding: 10px;
+					border-bottom: 3px solid #8ebf42;
+					text-align: center;
+				}
+
+
 			</style>
+			
+			<style>
+			.btn {
+			  background-color: #8ebf42;
+			  border: none;
+			  color: white;
+			  padding: 16px 32px;
+			  text-align: center;
+			  font-size: 16px;
+			  margin: 4px 2px;
+			  opacity: 1;
+			  transition: 0.3s;
+			}
+
+			.btn:hover {opacity: 0.6}
+			</style>
+			
 			<nav>
 				<ul>
 					<thead>
 					  <tr>
 
-						<th scope="col"><a href="#summary"><button class="button1">Özet</button></a></th>
-						<th scope="col"><a href="#education"><button class="button1">Eğitim</button></a></th>
-						<th scope="col"><a href="#dream"><button class="button1">İdealim</button></a></th>
-						<th scope="col"><a href="#skills"><button class="button1">Yetenekler</button></a></th>
-						<th scope="col"><a href="#contact"><button class="button1">İletişim</button></a></th>
+						<th scope="col"><a href="#summary"><button class="btn">Özet</button></a></th>
+						<th scope="col"><a href="#education"><button class="btn">Eğitim</button></a></th>
+						<th scope="col"><a href="#dream"><button class="btn">İdealim</button></a></th>
+						<th scope="col"><a href="#skills"><button class="btn">Yetenekler</button></a></th>
+						<th scope="col"><a href="#contact"><button class="btn">İletişim</button></a></th>
 					  </tr>
 					</thead>
 					<tbody>
@@ -58,15 +100,13 @@
 						<td>Yeteneklerim</td>
 						<td>Bana Ulaşın</td>
 					  </tr>
-					 </tbody>
+					</tbody>
 				</ul>
 			</nav>
 		</table>
 	</div>
-	
-</header>
-<main>
-    <article>
+	<br>
+	<div class="child", style="opacity: 0.9">
         <section id="summary">
             <h2>
                 Özet
@@ -123,9 +163,10 @@
 				
             </ol>
         </section>
+	</div>
     </article>
-</main>
-<footer>
+	<footer>
+	<div class="child">
     <section id="contact">
         <h2>İletişim</h2>
         <ul>
@@ -138,9 +179,9 @@
 			<li>
 				<a href="https://www.instagram.com/brknarsy/">Instagram</a>
 			</li>
-			
         </ul>
     </section>
-</footer>
+	</div>
+</main>
 </body>
 </html>
