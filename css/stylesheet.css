@@ -44,12 +44,13 @@ button {
     height: 0;
   }
 
+  // This covers the top & right borders (expands right, then down)
   &::before {
     top: 0;
     left: 0;
   }
 
-
+  // And this the bottom & left borders (expands left, then up)
   &::after {
     bottom: 0;
     right: 0;
@@ -59,7 +60,7 @@ button {
     color: $cyan;
   }
 
-
+  // Hover styles
   &:hover::before,
   &:hover::after {
     width: 100%;
@@ -91,14 +92,13 @@ button {
     color: $yellow;
   }
 
-  // Start 
-  ::after in same position as ::before
+  // Start ::after in same position as ::before
   &::after {
     top: 0;
     left: 0;
   }
 
-
+  // Change colors
   &:hover::before {
     border-top-color: $yellow;
     border-right-color: $yellow;
@@ -151,10 +151,13 @@ overflow: auto;
 .table-wrapper-scroll-y {
 display: block;
 }
-td, th {
-    border: 2px solid #000000;
-
-}
+table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
 body { 
   margin: 0 auto;
   max-width: 50em;
