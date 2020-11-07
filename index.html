@@ -4,31 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Ali Berkin Arısoy</title>
+	
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
+
 <body>
 <header>
     <h1>Ali Berkin Arısoy</h1>
-    <img src="img/image.jpg" width="300" alt="Mustafa Okudan"/>
-    <nav>
-        <ul>
-            <li><a href="#summary">Özet</a></li>
-            <li><a href="#education">Eğitim</a></li>
-			<li><a href="#dream">İdealim</a></li>
-            <li><a href="#skills">Yetenekler</a></li>
-            <li><a href="#contact">İletişim</a></li>
-        </ul>
-    </nav>
+    <img src="img/image.jpg" width="300" height="200" alt="Ali Berkin Arısoy"/>
+	<div class="table-wrapper-scroll-y my-custom-scrollbar">
+	
+		<table class="table table-bordered table-striped mb-0">
+			<nav>
+				<ul>
+					<thead>
+					  <tr>
+
+						<th scope="col"><a href="#skills"><a href="#summary">Özet</a></a></th>
+						<th scope="col"><a href="#contact"><a href="#education">Eğitim</a></a></th>
+						<th scope="col"><a href="#dream">İdealim</a></th>
+						<th scope="col"><a href="#skills">Yetenekler</a></th>
+						<th scope="col"><a href="#contact">İletişim</a></th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td>Ben Kimim?</td>
+						<td>Aldığım Eğitimler</td>
+						<td>İdealim ne?</td>
+						<td>Yeteneklerim</td>
+						<td>Bana Ulaşın</td>
+					  </tr>
+					 </tbody>
+				</ul>
+			</nav>
+		</table>
+	</div>
+	
 </header>
 <main>
     <article>
+		<section class="buttons">
+			<button class="button1">Merhaba</button>
+		</section>
         <section id="summary">
             <h2>
                 Özet
             </h2>
             <p>
                 Ben <b>Ali Berkin</b> kendimi tanımlamak istesem <i> kararlı bir öğrenci </i> derdim. Bildiklerim bilmediklerimin yanında kum kalsa da robotik, yazılım gibi alanlarda
-				kendimi geliştirmekten zevk alıyorum. <b> Bir yazılımcı olmak </b> benim isteyebileceğim en büyük şeylerden.
+				kendimi geliştirmekten zevk alıyorum. <b> Bir yazılımcı olmak </b> benim isteyebileceğim en büyük şeylerden. 
             </p>
         </section>
         <section id="education">
@@ -39,8 +64,8 @@
                     <small>'25</small><br>
                 </li>
                 <li>
-                    <strong >Robotik Kulübü</strong><br>
-                    '25<br>
+                    <strong >Robotik Kulübü</strong>
+					<br><small>'25</small><br>
                 </li>
 				<li>
                     <strong >Özel Babaoğlu Koleji</strong><br>
